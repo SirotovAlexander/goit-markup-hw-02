@@ -1,3 +1,7 @@
+:root {
+    --topic-color: #212121;
+    --text-color: #757575;
+}
 /* NAVIGATION */
 header {
     background-color: #FFFFFF;
@@ -24,6 +28,35 @@ header {
 .contact-link:focus {
     color: #2196F3;
 }
+/* HERO */
+.hero {
+    background-color: #2F303A;
+}
+h1 {
+    color: #FFFFFF;
+}
+.button {
+    color: #FFFFFF;
+}
+/* Our advantages section *//* What we do section *//* Our team section color text*/
+.advantages {
+    background-color: #F5F5F5;
+}
+.topic {
+    color: var(--topic-color);
+}
+.topic-text {
+    color: var(--text-color);
+}
+
+/* Our team section */
+.team {
+    background-color: #F5F4FA;
+}
+
+
+
+
 /* FOOTER */
 footer {
     background-color: #2F303A;
