@@ -1,6 +1,36 @@
-.site-navigation{
-    background-color: #fff;
+/* NAVIGATION */
+header {
+    background-color: #FFFFFF;
 }
-body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+.logo {
+    color: #000000;
+}
+.logo-firstpart {
+    color: #2196F3;
+}
+.main-nav-link {
+    color: #212121;
+    cursor: pointer;
+}
+.main-nav-link:hover,
+.main-nav-link:focus {
+    color: #2196F3;
+}
+.contact-link {
+    color: #757575;
+    cursor: pointer;
+}
+.contact-link:hover,
+.contact-link:focus {
+    color: #2196F3;
+}
+/* FOOTER */
+footer {
+    background-color: #2F303A;
+}
+.footer-link {
+    color: #FFFFFF;
+}
+.footer-link-second {
+    color: rgba(255, 255, 255, 0.6);
 }
