@@ -4,12 +4,25 @@
     --button-color: #2196F3;
     --main-background-color: #F5F5F5;
 }
+
+body {
+    font-family: 'Roboto', 'Raleway', sans-serif;
+    color: var(--topic-color);
+}
+
 /* NAVIGATION */
 header {
     background-color: #FFFFFF;
 }
 .logo {
     color: #000000;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
+    
 }
 .logo-firstpart {
     color: #2196F3;
@@ -17,6 +30,13 @@ header {
 .main-nav-link {
     color: var(--topic-color);
     cursor: pointer;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    text-decoration: none;
+    
 }
 .main-nav-link:hover,
 .main-nav-link:focus {
@@ -25,23 +45,42 @@ header {
 .contact-link {
     color: #757575;
     cursor: pointer;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+    text-decoration: none;
 }
 .contact-link:hover,
 .contact-link:focus {
     color: var(--button-color);
 }
+
+
 /* HERO */
 .hero {
     background-color: #2F303A;
 }
 h1 {
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36; 
+    text-transform: uppercase;
 }
 .button {
     background-color: var(--button-color);
+    
 }
 .button-text {
     color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.8;
 }
 /* Our advantages section *//* What we do section *//* Our team section color text*/
 .advantages {
@@ -49,16 +88,56 @@ h1 {
 }
 .topic {
     color: var(--topic-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
 }
 .topic-text {
     color: var(--text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    
 }
 
 /* Our team section */
 .team {
     background-color: var(--main-background-color);
 }
+.team-section {
+    color: var(--topic-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    
 
+}
+.team-topic {
+    color: var(--topic-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    
+
+}
+.team-topic-text {
+    color: var(--text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.18;
+
+}
 
 
 
@@ -68,22 +147,53 @@ footer {
 }
 .footer-logo {
     color: #FFFFFF;
+    ont-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    text-decoration: none;
 }
 .footer-link {
     color: #FFFFFF;
+    ont-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
 }
 .footer-link-second {
     color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    text-decoration: none;
+    
 }
+.footer-link-second:hover,
+.footer-link-second:focus {
+    color: var(--button-color);
+}
+
+
 /* PORTFOLIO */
 .work-examples {
     background-color: var(--main-background-color);
 }
 .secondary-button {
     background-color: var(--main-background-color);
+    cursor: pointer;
 }
 .secondary-button-text {
     color: var(--text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
 }
 .secondary-button:hover,
 .secondary-button:focus {
@@ -92,4 +202,22 @@ footer {
 .secondary-button-text:hover,
 .secondary-button-text:focus {
     color: #FFFFFF;
+}
+.topic-portfolio {
+    color: var(--topic-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+}
+.topic-portfolio-text {
+    color: var(--text-color);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.8;
+
 }
