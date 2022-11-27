@@ -1,6 +1,8 @@
 :root {
     --topic-color: #212121;
     --text-color: #757575;
+    --button-color: #2196F3;
+    --main-background-color: #F5F5F5;
 }
 /* NAVIGATION */
 header {
@@ -13,12 +15,12 @@ header {
     color: #2196F3;
 }
 .main-nav-link {
-    color: #212121;
+    color: var(--topic-color);
     cursor: pointer;
 }
 .main-nav-link:hover,
 .main-nav-link:focus {
-    color: #2196F3;
+    color: var(--button-color);
 }
 .contact-link {
     color: #757575;
@@ -26,7 +28,7 @@ header {
 }
 .contact-link:hover,
 .contact-link:focus {
-    color: #2196F3;
+    color: var(--button-color);
 }
 /* HERO */
 .hero {
@@ -36,11 +38,14 @@ h1 {
     color: #FFFFFF;
 }
 .button {
+    background-color: var(--button-color);
+}
+.button-text {
     color: #FFFFFF;
 }
 /* Our advantages section *//* What we do section *//* Our team section color text*/
 .advantages {
-    background-color: #F5F5F5;
+    background-color: var(--main-background-color);
 }
 .topic {
     color: var(--topic-color);
@@ -51,7 +56,7 @@ h1 {
 
 /* Our team section */
 .team {
-    background-color: #F5F4FA;
+    background-color: var(--main-background-color);
 }
 
 
@@ -61,9 +66,30 @@ h1 {
 footer {
     background-color: #2F303A;
 }
+.footer-logo {
+    color: #FFFFFF;
+}
 .footer-link {
     color: #FFFFFF;
 }
 .footer-link-second {
     color: rgba(255, 255, 255, 0.6);
+}
+/* PORTFOLIO */
+.work-examples {
+    background-color: var(--main-background-color);
+}
+.secondary-button {
+    background-color: var(--main-background-color);
+}
+.secondary-button-text {
+    color: var(--text-color);
+}
+.secondary-button:hover,
+.secondary-button:focus {
+    background-color: var(--button-color);
+}
+.secondary-button-text:hover,
+.secondary-button-text:focus {
+    color: #FFFFFF;
 }
