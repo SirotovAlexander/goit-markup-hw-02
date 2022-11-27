@@ -163,6 +163,7 @@ footer {
 .footer-link {
     color: #FFFFFF;
     ont-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -171,6 +172,7 @@ footer {
 .footer-link-second {
     color: rgba(255, 255, 255, 0.6);
     font-family: 'Roboto';
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
