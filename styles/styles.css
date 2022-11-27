@@ -3,6 +3,9 @@
     --text-color: #757575;
     --button-color: #2196F3;
     --main-background-color: #F5F5F5;
+    --main-background-color-second: #FFFFFF;
+    --hero-color:#2F303A;
+    --footer-link-second-color: rgba(255, 255, 255, 0.6);
 }
 
 body {
@@ -25,7 +28,7 @@ body {
 
 /* NAVIGATION */
 header {
-    background-color: #FFFFFF;
+    background-color: var(--main-background-color-second);
 }
 .logo {
     color: #000000;
@@ -37,12 +40,11 @@ header {
     
 }
 .logo-firstpart {
-    color: #2196F3;
+    color: var(--button-color);
 }
 .main-nav-link {
     color: var(--topic-color);
     cursor: pointer;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -57,9 +59,8 @@ header {
     color: var(--button-color);
 }
 .contact-link {
-    color: #757575;
+    color: var(--text-color);
     cursor: pointer;
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 14px;
     line-height: 1,14;
@@ -73,10 +74,10 @@ header {
 
 /* HERO */
 .hero {
-    background-color: #2F303A;
+    background-color: var(--hero-color);
 }
 h1 {
-    color: #FFFFFF;
+    color: var(--main-background-color);
     font-family: 'Roboto';
     font-weight: 900;
     font-size: 44px;
@@ -88,27 +89,22 @@ h1 {
     
 }
 .button-text {
-    color: #FFFFFF;
+    color: var(--main-background-color-second);
     font-family: 'Roboto';
     font-weight: 700;
     font-size: 16px;
     line-height: 1.8;
 }
 /* Our advantages section *//* What we do section *//* Our team section color text*/
-.advantages {
-    background-color: var(--main-background-color);
-}
+
 .topic {
     color: var(--topic-color);
-    font-family: 'Roboto';
-    font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
     text-transform: uppercase;
 }
 .topic-text {
     color: var(--text-color);
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
@@ -121,8 +117,6 @@ h1 {
 }
 .team-section {
     color: var(--topic-color);
-    font-family: 'Roboto';
-    font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     
@@ -130,7 +124,6 @@ h1 {
 }
 .team-topic {
     color: var(--topic-color);
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -139,7 +132,6 @@ h1 {
 }
 .team-topic-text {
     color: var(--text-color);
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
@@ -150,19 +142,18 @@ h1 {
 
 /* FOOTER */
 footer {
-    background-color: #2F303A;
+    background-color: var(--hero-color);
 }
 .footer-logo {
-    color: #FFFFFF;
-    ont-family: 'Raleway';
+    color: var(--main-background-color-second);
+    font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-decoration: none;
 }
 .footer-link {
-    color: #FFFFFF;
-    ont-family: 'Roboto';
+    color: var(--main-background-color-second);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -170,8 +161,7 @@ footer {
     text-decoration: none;
 }
 .footer-link-second {
-    color: rgba(255, 255, 255, 0.6);
-    font-family: 'Roboto';
+    color: var(--footer-link-second-color);
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -186,16 +176,13 @@ footer {
 
 
 /* PORTFOLIO */
-.work-examples {
-    background-color: var(--main-background-color);
-}
+
 .secondary-button {
     background-color: var(--main-background-color);
     cursor: pointer;
 }
 .secondary-button-text {
     color: var(--text-color);
-    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.6;
@@ -206,19 +193,16 @@ footer {
 }
 .secondary-button-text:hover,
 .secondary-button-text:focus {
-    color: #FFFFFF;
+    color: var(--main-background-color-second);
 }
 .topic-portfolio {
     color: var(--topic-color);
-    font-family: 'Roboto';
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
 
 }
 .topic-portfolio-text {
     color: var(--text-color);
-    font-family: 'Roboto';
     font-weight: 400;
     font-size: 16px;
     line-height: 1.8;
