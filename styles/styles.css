@@ -1,5 +1,6 @@
 :root {
     --topic-color: #212121;
+    --black-logo: #000000;
     --text-color: #757575;
     --button-color: #2196F3;
     --main-background-color: #F5F5F5;
@@ -25,13 +26,16 @@ body {
     clip-path: inset(50%);
     margin: -1px;
 }
+.list {
+    list-style: none
+}
 
 /* NAVIGATION */
 header {
     background-color: var(--main-background-color-second);
 }
 .logo {
-    color: #000000;
+    color: var(--black-logo);
     font-family: 'Raleway';
     font-weight: 700;
     font-size: 26px;
@@ -83,6 +87,7 @@ h1 {
     font-size: 44px;
     line-height: 1.36; 
     text-transform: uppercase;
+    text-align: center;
 }
 .button {
     background-color: var(--button-color);
@@ -95,7 +100,7 @@ h1 {
     font-size: 16px;
     line-height: 1.8;
 }
-/* Our advantages section *//* What we do section *//* Our team section color text*/
+/* Our advantages section *//* What we do section */
 
 .topic {
     color: var(--topic-color);
@@ -118,7 +123,7 @@ h1 {
 .team-section {
     color: var(--topic-color);
     font-size: 36px;
-    line-height: 42px;
+    line-height: 1.16;
     
 
 }
@@ -127,6 +132,7 @@ h1 {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    text-align: center;
     
 
 }
@@ -135,6 +141,7 @@ h1 {
     font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
+    text-align: center;
 
 }
 
